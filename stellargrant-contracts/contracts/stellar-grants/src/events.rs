@@ -187,7 +187,6 @@ impl Events {
         event.publish(env);
     }
 
-
     pub fn emit_grant_created(
         env: &Env,
         grant_id: u64,
