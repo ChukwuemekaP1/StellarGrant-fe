@@ -756,7 +756,7 @@ impl StellarGrantsContract {
                 &env,
                 grant_id,
                 milestone_idx,
-                milestone.approvals as u32,
+                milestone.approvals,
                 grant.quorum,
             );
 
